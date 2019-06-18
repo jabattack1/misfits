@@ -18,28 +18,7 @@ class Items extends React.Component{
 		);
 	}
 
-	addToCart(){
-		console.log(this.props.item.id);
-		var item = this.props.item;
-	
-		fetch(`https://nursery.misfitsmarket.com/api/test/v1/`+this.props.item.id, {
-			method: "post",
-			  headers: {
-			    'Accept': 'application/json',
-			    'Content-Type': 'application/json',
-			    'X-Customer-Token':721028102
-			  },
-		  	body: JSON.stringify({
-		    item
-			})
-		})
-		.then((response) => { 
-		   console.log(response);
-		})
-		.then((responseJson) => { console.log(responseJson); })
-		.catch((error) => {console.error(error); })
 
-	}
 
 }
 

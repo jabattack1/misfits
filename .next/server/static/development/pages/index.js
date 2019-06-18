@@ -134,8 +134,9 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, "Misfits Market"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "shortcut icon",
-    href: "https://cdn.shopify.com/s/files/1/0021/1750/1026/t/10/assets/blemishes.svg?515772g",
+    rel: "icon",
+    type: "image/png",
+    href: "https://i.imgur.com/nxMZvrg.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -145,14 +146,14 @@ var Layout = function Layout(props) {
     className: "wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, props.children)));

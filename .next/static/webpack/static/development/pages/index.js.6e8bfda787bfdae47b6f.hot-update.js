@@ -79,4 +79,4 @@ var Layout = function Layout(props) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.cb35a83eac92d3db3787.hot-update.js.map
+//# sourceMappingURL=index.js.6e8bfda787bfdae47b6f.hot-update.js.map

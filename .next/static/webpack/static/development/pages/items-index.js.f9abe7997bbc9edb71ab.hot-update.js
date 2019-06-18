@@ -1,9 +1,9 @@
 webpackHotUpdate("static/development/pages/items-index.js",{
 
-/***/ "./components/items-parent.js":
-/*!************************************!*\
-  !*** ./components/items-parent.js ***!
-  \************************************/
+/***/ "./components/items.js":
+/*!*****************************!*\
+  !*** ./components/items.js ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18,9 +18,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_items__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/items */ "./components/items.js");
 
 
 
@@ -28,87 +25,70 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/misfits/misfits-market/components/items-parent.js";
+var _jsxFileName = "/Users/peterhahn/src/new/misfits/misfits-market/components/items.js";
 
 
-
-
-var ItemsParent =
+var Items =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ItemsParent, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Items, _React$Component);
 
-  function ItemsParent(props) {
+  function Items(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ItemsParent);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Items);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ItemsParent).call(this, props));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Items).call(this, props));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {});
 
+    console.log(props);
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ItemsParent, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Items, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 13
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        className: "misfitsLogo",
-        src: "https://cdn.shopify.com/s/files/1/0021/1750/1026/t/10/assets/misfits-market-header-logo.svg?515772",
-        title: "misfits market",
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
+        className: "product",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 14
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
-        className: "table",
+      }, this.props.item.product), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
+        type: "button",
+        value: "ADD TO CART",
+        align: "right",
+        onClick: this.addToCart.bind(this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 15
         },
         __self: this
-      }, this.props.data.items.map(function (item, i) {
-        return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_items__WEBPACK_IMPORTED_MODULE_9__["default"], {
-          key: i,
-          i: i + 1,
-          item: item,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 24
-          },
-          __self: this
-        });
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "/",
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
+        className: "price",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, "BACK")));
+      }, "$", this.props.item.price));
     }
   }]);
 
-  return ItemsParent;
+  return Items;
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (ItemsParent);
+/* harmony default export */ __webpack_exports__["default"] = (Items);
 
 /***/ })
 
 })
-//# sourceMappingURL=items-index.js.eb95d9564b9ea527b67e.hot-update.js.map
+//# sourceMappingURL=items-index.js.f9abe7997bbc9edb71ab.hot-update.js.map

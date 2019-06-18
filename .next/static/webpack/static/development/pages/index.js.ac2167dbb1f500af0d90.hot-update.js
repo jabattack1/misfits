@@ -48,6 +48,15 @@ var Layout = function Layout(props) {
       lineNumber: 8
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/png",
+    href: "https://i.imgur.com/nxMZvrg.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper",
     __source: {
@@ -70,4 +79,4 @@ var Layout = function Layout(props) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.0d41f3578e2c7ff73879.hot-update.js.map
+//# sourceMappingURL=index.js.ac2167dbb1f500af0d90.hot-update.js.map
