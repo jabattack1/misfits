@@ -28,7 +28,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/misfits/with-jest-app/components/items-parent.js";
+var _jsxFileName = "/Users/peterhahn/src/new/misfits/misfits-market/components/items-parent.js";
 
 
 
@@ -87,14 +87,19 @@ function (_React$Component) {
           __self: this
         });
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        id: "back",
         href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
         },
         __self: this
-      }, "BACK"));
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "BACK")));
     }
   }]);
 
@@ -133,7 +138,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/misfits/with-jest-app/components/items.js";
+var _jsxFileName = "/Users/peterhahn/src/new/misfits/misfits-market/components/items.js";
 
 
 var Items =
@@ -236,7 +241,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/peterhahn/src/new/misfits/with-jest-app/components/layout.js";
+var _jsxFileName = "/Users/peterhahn/src/new/misfits/misfits-market/components/layout.js";
 
 
 
@@ -262,8 +267,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, "Misfits Market"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "icon",
-    type: "image/png",
+    rel: "shortcut icon",
     href: "https://cdn.shopify.com/s/files/1/0021/1750/1026/t/10/assets/blemishes.svg?515772g",
     __source: {
       fileName: _jsxFileName,
@@ -274,14 +278,14 @@ var Layout = function Layout(props) {
     className: "wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, props.children)));
@@ -6537,10 +6541,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fwith-jest-app%2Fpages%2Fitems-index.js!./":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fwith-jest-app%2Fpages%2Fitems-index.js ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fmisfits-market%2Fpages%2Fitems-index.js!./":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fmisfits-market%2Fpages%2Fitems-index.js ***!
+  \************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10818,7 +10822,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/peterhahn/src/new/misfits/with-jest-app/pages/items-index.js";
+var _jsxFileName = "/Users/peterhahn/src/new/misfits/misfits-market/pages/items-index.js";
 
 
 
@@ -10881,14 +10885,14 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
 
 /***/ }),
 
-/***/ 0:
-/*!***************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fwith-jest-app%2Fpages%2Fitems-index.js ***!
-  \***************************************************************************************************************************************************************/
+/***/ 2:
+/*!****************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fmisfits-market%2Fpages%2Fitems-index.js ***!
+  \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fwith-jest-app%2Fpages%2Fitems-index.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fwith-jest-app%2Fpages%2Fitems-index.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fmisfits-market%2Fpages%2Fitems-index.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fitems-index&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fmisfits-market%2Fpages%2Fitems-index.js!./");
 
 
 /***/ }),
@@ -10904,5 +10908,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=items-index.js.map

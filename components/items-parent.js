@@ -23,7 +23,7 @@ class ItemsParent extends React.Component{
 				<ul className='table'>
 					{this.props.data.items.map((item, i) => <Items key={i} i={i+1} item={item} />)}
 				</ul>
-				<Link id='back' href={`/`}>BACK</Link>
+				<Link href={`/`}><a>BACK</a></Link>
 			</div>
 		)
 	}
