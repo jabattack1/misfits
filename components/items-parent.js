@@ -5,16 +5,6 @@ import Items from '../components/items';
 
 class ItemsParent extends React.Component{
 
-	constructor(props) {
-
-		super(props);
-
-    }
-
-	state = {
-		
-	}
-
 	render(){
 
 		return(
