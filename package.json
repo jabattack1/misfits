@@ -22,7 +22,9 @@
     "test": "jest",
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "deploy": "npm run build && npm run export"
   }
 }
+
