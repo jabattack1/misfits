@@ -266,11 +266,20 @@ function (_React$Component) {
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+          className: "misfitsLogo",
+          src: "https://cdn.shopify.com/s/files/1/0021/1750/1026/t/10/assets/misfits-market-header-logo.svg?515772",
+          title: "misfits market",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 41
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
           className: "fruit",
           src: "https://i.imgur.com/5cSXs3A.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41
+            lineNumber: 42
           },
           __self: this
         }));
@@ -279,7 +288,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         },
         __self: this
       }, items);

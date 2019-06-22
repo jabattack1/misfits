@@ -38,6 +38,7 @@ class MainMenu extends React.Component{
 		else{
 			items = (
 				<div>
+					<img className='misfitsLogo' src='https://cdn.shopify.com/s/files/1/0021/1750/1026/t/10/assets/misfits-market-header-logo.svg?515772' title='misfits market' />
 					<img className='fruit' src='https://i.imgur.com/5cSXs3A.png' />
 				</div>
 			)	
