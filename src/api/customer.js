@@ -1,3 +1,5 @@
+//Switches between unfetch & node-fetch for client & server.
+import fetch from 'isomorphic-unfetch';
 
 export async function addToCart(id) {
 	await fetch(`https://nursery.misfitsmarket.com/api/test/v1/${id}`, {

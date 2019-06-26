@@ -1,9 +1,10 @@
+//Switches between unfetch & node-fetch for client & server.
 import fetch from 'isomorphic-unfetch';
-
+//centralized css for non-components
 import '../src/css/style.css';
-
+//React components
 import Layout from '../src/components/layout';
-import MainMenu from '../src/components/main-menu';
+import MainMenu from '../src/components/mainMenu';
 
 const Index = (props) => (
 	<Layout>
