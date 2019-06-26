@@ -14231,7 +14231,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpeterhahn%2Fsrc%2Fnew%2Fmisfits%2Fmisfits-market%2Fpages%2Findex.js ***!
   \***********************************************************************************************************************************************/
@@ -14254,5 +14254,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

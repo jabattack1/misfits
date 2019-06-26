@@ -1,7 +1,7 @@
-//promise from customer.js
-import Customer from '../api/index'
 //Visual primitives for the component age
 import styled from 'styled-components';
+//promise from customer.js
+import Customer from '../api/index'
 
 const Button = styled.input`
 	display: inline-block;
