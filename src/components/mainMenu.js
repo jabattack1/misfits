@@ -11,8 +11,7 @@ const Fruit = styled.img`
 	width:10em; 
 	margin:0 auto; 
 	display:block; 
-	padding:1.7em;
-	
+	padding:1.7em;	
 	&:hover {
 		cursor:pointer;
 	  }

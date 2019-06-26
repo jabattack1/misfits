@@ -12,7 +12,6 @@ const Button = styled.input`
 	width:8.4em;
 	font-size:.1em;
 	font-weight:bold;
-
     &:hover {
 		cursor:pointer;
 	  }

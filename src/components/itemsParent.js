@@ -23,8 +23,7 @@ const AnchorTag = styled.a`
 	margin:0 auto;
 	display:block;
 	text-align:center;
-	padding:.5em;
-	
+	padding:.5em;	
 	&:hover{
 		color:#3F3F3F;
 		cursor:pointer;
