@@ -1,9 +1,9 @@
 import fetch from 'isomorphic-unfetch';
-import Layout from '../components/layout';
 
-import '../css/style.css';
+import '../src/css/style.css';
 
-import MainMenu from '../components/main-menu';
+import Layout from '../src/components/layout';
+import MainMenu from '../src/components/main-menu';
 
 const Index = (props) => (
 	<Layout>
@@ -13,7 +13,7 @@ const Index = (props) => (
 	</Layout>
 );
 
-Index.getInitialProps = async function() {
+Index.getInitialProps = async function () {
 	const result = await fetch('https://nursery.misfitsmarket.com/api/test/v1');
 	const data = await result.json();
 

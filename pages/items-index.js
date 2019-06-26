@@ -1,7 +1,9 @@
-import '../css/style.css';
+import '../src/css/style.css';
 
-import Layout from '../components/layout';
-import ItemsParent from '../components/items-parent';
+import items from '../src/api/index'
+
+import Layout from '../src/components/layout';
+import ItemsParent from '../src/components/items-parent';
 
 
 
@@ -14,12 +16,12 @@ const ItemsIndex = (props) => (
 );
 
 
-ItemsIndex.getInitialProps = async function() {
-	const result1 = await fetch('https://nursery.misfitsmarket.com/api/test/v1');
-	const data1 = await result1.json();
+ItemsIndex.getInitialProps = async function () {
+	const result = await fetch('https://nursery.misfitsmarket.com/api/test/v1');
+	const data = await result.json();
 
 	return {
-		misfits: data1
+		misfits: data
 	};
 }
 
