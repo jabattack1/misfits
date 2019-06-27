@@ -57,8 +57,8 @@ application will be ready on http://localhost:3000/
 
 ## Deployment
 
-You can deploy this static application onto Netlify.
-Directions here:
+You can deploy this application onto Netlify.
+Directions on how to deploy static Next.js applications onto Netlify here:
 https://dev.to/kozakrisz/deploy-nextjs-project-to-netlify-4bd5
 
 ## Built With
