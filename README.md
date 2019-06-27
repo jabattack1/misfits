@@ -16,14 +16,16 @@ node -v
 ```
 npm -v
 ```
+If you see a version number, please skip to the next section 'Installing'.
+
 If you don't see a version number, go here to download Node.js and npm:
 https://www.npmjs.com/get-npm
 
+After downloading and installing Node.js and npm, run the above commands again and make sure you get a version number.
+
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
 ```
 Give the example
