@@ -23,7 +23,7 @@ https://www.npmjs.com/get-npm.
 
 After downloading and installing Node.js and npm, run the above commands again and make sure you get a version number.
 
-### Installing
+### Installation
 
 You can do 2 things to get you up and running with Market App, you can either fork everything in this repo and run:
 
@@ -32,7 +32,7 @@ npm install
 ```
 or
 
-you can install Next.js with Jest unit testing and copy/paste over only the essential folders/files.
+you can install Next.js with Jest unit testing and copy/paste over only the essential folders/files from this repo.
 
 ```
 npm i npx
@@ -40,7 +40,7 @@ npm i npx
 ```
 npx create-next-app --example with-jest with-jest-app
 ```
-1. Copy/paste 'pages' and 'src' folders into the parent folder.
+1. Copy/paste 'pages' and 'src' folders into the parent project folder.
 2. Delete all contents in your local 'package.json' file and replace it with all contents in 'package.json' from this repo.
 3. run this command:
 
@@ -48,29 +48,12 @@ npx create-next-app --example with-jest with-jest-app
 npm install
 ```
 
-
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+## Running the application
 
 ```
-Give an example
+npm run dev 
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+application will be ready on http://localhost:3000/
 
 ## Deployment
 
@@ -104,10 +87,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * The good people at Russell Tobbin
 
-
-
-
-
-
-1. npm install
-2. npm run dev (ready on http://localhost:3000/)
