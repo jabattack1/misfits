@@ -57,27 +57,23 @@ application will be ready on http://localhost:3000/
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+You can deploy this static application onto Netlify.
+https://dev.to/kozakrisz/deploy-nextjs-project-to-netlify-4bd5
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Next.js](https://nextjs.org/) - The web framework used
+* [Redux](https://redux.js.org/) - React.js pattern
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+[SemVer](http://semver.org/)
+For the versions available, see the [tags on this repository](https://github.com/jabattack1/misfits/releases). 
 
 ## Authors
 
-* **Peter Hahn** - *Initial work* - [PurpleBooth](https://github.com/jabattack1)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Peter Hahn** - *Initial work* - [jabattack1](https://github.com/jabattack1)
 
 ## License
 
