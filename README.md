@@ -16,26 +16,38 @@ node -v
 ```
 npm -v
 ```
-If you see a version number, please skip to the next section 'Installing'.
+If you see a version number, please skip to the next section.
 
 If you don't see a version number, go here to download Node.js and npm:
-https://www.npmjs.com/get-npm
+https://www.npmjs.com/get-npm.
 
 After downloading and installing Node.js and npm, run the above commands again and make sure you get a version number.
 
 ### Installing
 
-
-
-```
-Give the example
-```
-
-And repeat
+You can do 2 things to get you up and running with Market App, you can either run
 
 ```
-until finished
+npm install
 ```
+or
+
+you can install Next.js with Jest unit testing and copy/paste over essential folders/files
+
+```
+npm i npx
+```
+```
+npx create-next-app --example with-jest with-jest-app
+```
+1. Copy/paste 'pages' and 'src' folders into the parent folder.
+2. Delete all contents in your local package.json file and replace it with all contents in the package.json from this repo.
+3. run this command:
+```
+npm install
+```
+
+
 
 End with an example of getting some data out of the system or using it for a little demo
 
