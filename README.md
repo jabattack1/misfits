@@ -1,6 +1,6 @@
 # Market App
 
-One Paragraph of project description goes here
+This application fetches a list of available items and its attributes. The user will be able to select any available items and add it to a shopping cart. There, the user will be able to edit those items (delete, change quantity), see the total price, price of shipping, and tax. 
 
 ## Getting Started
 
@@ -8,11 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Make sure Node.js and npm is installed.
 
 ```
-Give examples
+node -v
 ```
+```
+npm -v
+```
+If you don't see a version number, go here to download Node.js and npm:
+https://www.npmjs.com/get-npm
 
 ### Installing
 
@@ -72,7 +77,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Peter Hahn** - *Initial work* - [PurpleBooth](https://github.com/jabattack1)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -82,9 +87,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* The good people at Russell Tobbin
+
 
 
 
