@@ -48,7 +48,7 @@ npx create-next-app --example with-jest with-jest-app
 npm install
 ```
 
-## Running the application
+## Running the application locally
 
 ```
 npm run dev 
@@ -58,6 +58,7 @@ application will be ready on http://localhost:3000/
 ## Deployment
 
 You can deploy this static application onto Netlify.
+Directions here:
 https://dev.to/kozakrisz/deploy-nextjs-project-to-netlify-4bd5
 
 ## Built With
@@ -73,7 +74,7 @@ For the versions available, see the [tags on this repository](https://github.com
 
 ## Authors
 
-* **Peter Hahn** - *Initial work* - [jabattack1](https://github.com/jabattack1)
+* **Peter Hahn** - [jabattack1](https://github.com/jabattack1)
 
 ## License
 
