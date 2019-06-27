@@ -25,14 +25,14 @@ After downloading and installing Node.js and npm, run the above commands again a
 
 ### Installing
 
-You can do 2 things to get you up and running with Market App, you can either run
+You can do 2 things to get you up and running with Market App, you can either fork everything in this repo and run:
 
 ```
 npm install
 ```
 or
 
-you can install Next.js with Jest unit testing and copy/paste over essential folders/files
+you can install Next.js with Jest unit testing and copy/paste over only the essential folders/files.
 
 ```
 npm i npx
@@ -41,8 +41,9 @@ npm i npx
 npx create-next-app --example with-jest with-jest-app
 ```
 1. Copy/paste 'pages' and 'src' folders into the parent folder.
-2. Delete all contents in your local package.json file and replace it with all contents in the package.json from this repo.
+2. Delete all contents in your local 'package.json' file and replace it with all contents in 'package.json' from this repo.
 3. run this command:
+
 ```
 npm install
 ```
