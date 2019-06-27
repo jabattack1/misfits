@@ -31,8 +31,9 @@ const AnchorTag = styled.a`
 `
 
 class ItemsParent extends React.Component {
-	render() {
 
+	render() {
+		
 		return (
 			<div>
 				<Image className='misfitsLogo' src='https://cdn.shopify.com/s/files/1/0021/1750/1026/t/10/assets/misfits-market-header-logo.svg?515772' title='misfits market' />

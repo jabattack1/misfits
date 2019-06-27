@@ -20,6 +20,7 @@ const Fruit = styled.img`
 class MainMenu extends React.Component {
 
 	render() {
+		
 		var items = '';
 
 		if (this.props.msg === 'Success') {
